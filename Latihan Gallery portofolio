@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>The Bahlil</h1>
+
+    <div class="container">
+      <ul class="gallery">
+        <li>
+          <a href="#gambar-1">
+            <img src="img/thumb/bahlil jas.jpg" alt="bahlil jas" />
+            <span>bahlil jas</span>
+          </a>
+
+          <div class="overlay" id="gambar-1">
+            <a href="#" class="close">x close</a>
+            <a href="#gambar-4" class="prev">prev</a>
+            <img src="img/full/bahlil jas.jpg" alt="bahlil jas" />
+            <a href="#gambar-2" class="next">next</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#gambar-2">
+            <img
+              src="img/thumb/bahlil garuk kepala.jpg"
+              alt="bahlil garuk kepala"
+            />
+            <span>bahlil garuk</span>
+          </a>
+
+          <div class="overlay" id="gambar-2">
+            <a href="#" class="close">x close</a>
+            <a href="#gambar-1" class="prev">prev</a>
+            <img src="img/full/bahlil garuk kepala.jpg" alt="bahlil garuk" />
+            <a href="#gambar-3" class="next">next</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#gambar-3">
+            <img src="img/thumb/bahlil.jpeg" alt="bahlil" />
+            <span>bahlil</span>
+          </a>
+
+          <div class="overlay" id="gambar-3">
+            <a href="#" class="close">x close</a>
+            <a href="#gambar-2" class="prev">prev</a>
+            <img src="img/full/bahlil.jpeg" alt="bahlil" />
+            <a href="#gambar-4" class="next">next</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#gambar-4">
+            <img src="img/thumb/bahlil silver.jpg" alt="bahlil silver" />
+            <span>bahlil silver</span>
+          </a>
+
+          <div class="overlay" id="gambar-4">
+            <a href="#" class="close">x close</a>
+            <a href="#gambar-3" class="prev">prev</a>
+            <img src="img/full/bahlil silver.jpg" alt="bahlil silver" />
+            <a href="#gambar-1" class="next">next</a>
+          </div>
+        </li>
+
+        <div class="clear"></div>
+      </ul>
+    </div>
+  </body>
+</html>
